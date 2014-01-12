@@ -21,6 +21,7 @@ public class Frame extends javax.swing.JFrame {
         jPanel2.setVisible(false);
         jPanel3.setVisible(false);
         jPanel4.setVisible(false);
+        jPanel5.setVisible(false);
     }
 
     /**
@@ -57,8 +58,40 @@ public class Frame extends javax.swing.JFrame {
         Backg4 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jPanel8 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
+        RollBtn = new javax.swing.JLabel();
+        Zar1 = new javax.swing.JLabel();
+        Zar2 = new javax.swing.JLabel();
+        Alba14 = new javax.swing.JLabel();
+        Alba15 = new javax.swing.JLabel();
+        Alba11 = new javax.swing.JLabel();
+        Alba13 = new javax.swing.JLabel();
+        Alba12 = new javax.swing.JLabel();
+        Alba8 = new javax.swing.JLabel();
+        Alba9 = new javax.swing.JLabel();
+        Alba10 = new javax.swing.JLabel();
+        Alba2 = new javax.swing.JLabel();
+        Alba1 = new javax.swing.JLabel();
+        Alba3 = new javax.swing.JLabel();
+        Alba4 = new javax.swing.JLabel();
+        Alba5 = new javax.swing.JLabel();
+        Alba6 = new javax.swing.JLabel();
+        Alba7 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        Background = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -68,7 +101,11 @@ public class Frame extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+        jMenuItem3 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(870, 650));
@@ -110,7 +147,7 @@ public class Frame extends javax.swing.JFrame {
         jPanel1.add(Dice);
         Dice.setBounds(520, 80, 80, 90);
 
-        Backg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/capture2.png"))); // NOI18N
+        Backg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Background.jpg"))); // NOI18N
         Backg1.setName("Background"); // NOI18N
         jPanel1.add(Backg1);
         Backg1.setBounds(0, 0, 870, 650);
@@ -229,18 +266,146 @@ public class Frame extends javax.swing.JFrame {
         jPanel8.setOpaque(false);
         jPanel8.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Roll.png"))); // NOI18N
-        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+        RollBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Roll.png"))); // NOI18N
+        RollBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel2MouseClicked(evt);
+                RollBtnMouseClicked(evt);
             }
         });
-        jPanel8.add(jLabel2);
-        jLabel2.setBounds(310, 280, 100, 100);
+        jPanel8.add(RollBtn);
+        RollBtn.setBounds(500, 270, 100, 100);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Tableta.png"))); // NOI18N
+        Zar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/joctable/images/stone1.png"))); // NOI18N
+        jPanel8.add(Zar1);
+        Zar1.setBounds(60, 270, 100, 110);
+
+        Zar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/joctable/images/stone1.png"))); // NOI18N
+        jPanel8.add(Zar2);
+        Zar2.setBounds(190, 270, 100, 110);
+
+        Alba14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba14);
+        Alba14.setBounds(375, 505, 60, 60);
+
+        Alba15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba15);
+        Alba15.setBounds(375, 560, 60, 60);
+
+        Alba11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba11);
+        Alba11.setBounds(375, 340, 60, 60);
+
+        Alba13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba13);
+        Alba13.setBounds(375, 450, 60, 60);
+
+        Alba12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba12);
+        Alba12.setBounds(375, 395, 60, 60);
+
+        Alba8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba8);
+        Alba8.setBounds(240, 450, 60, 60);
+
+        Alba9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba9);
+        Alba9.setBounds(240, 505, 60, 60);
+
+        Alba10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba10);
+        Alba10.setBounds(240, 560, 60, 60);
+
+        Alba2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba2);
+        Alba2.setBounds(620, 35, 60, 60);
+
+        Alba1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba1);
+        Alba1.setBounds(620, 90, 60, 60);
+
+        Alba3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba3);
+        Alba3.setBounds(40, 255, 60, 60);
+
+        Alba4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba4);
+        Alba4.setBounds(40, 200, 60, 60);
+
+        Alba5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba5);
+        Alba5.setBounds(40, 145, 60, 60);
+
+        Alba6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba6);
+        Alba6.setBounds(40, 90, 60, 60);
+
+        Alba7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa alba.png"))); // NOI18N
+        jPanel8.add(Alba7);
+        Alba7.setBounds(40, 35, 60, 60);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
         jPanel8.add(jLabel3);
-        jLabel3.setBounds(6, 0, 700, 650);
+        jLabel3.setBounds(374, 35, 53, 60);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel4);
+        jLabel4.setBounds(375, 200, 53, 60);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel5);
+        jLabel5.setBounds(375, 145, 53, 60);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel6);
+        jLabel6.setBounds(375, 90, 53, 60);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel7);
+        jLabel7.setBounds(375, 255, 53, 60);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel8);
+        jLabel8.setBounds(240, 145, 53, 60);
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel9);
+        jLabel9.setBounds(240, 90, 53, 60);
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel10);
+        jLabel10.setBounds(240, 35, 53, 60);
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel11);
+        jLabel11.setBounds(620, 560, 53, 60);
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel12);
+        jLabel12.setBounds(620, 505, 53, 60);
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel13);
+        jLabel13.setBounds(40, 560, 53, 60);
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel14);
+        jLabel14.setBounds(40, 505, 53, 60);
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel15);
+        jLabel15.setBounds(40, 450, 53, 60);
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel16);
+        jLabel16.setBounds(40, 395, 53, 60);
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Piesa neagra.png"))); // NOI18N
+        jPanel8.add(jLabel17);
+        jLabel17.setBounds(40, 340, 53, 60);
+
+        Background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagini/Tableta.png"))); // NOI18N
+        jPanel8.add(Background);
+        Background.setBounds(6, 0, 700, 650);
 
         jPanel5.add(jPanel8);
         jPanel8.setBounds(0, 0, 700, 650);
@@ -366,9 +531,38 @@ public class Frame extends javax.swing.JFrame {
         jLayeredPane2.setLayer(jPanel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jMenu1.setText("File");
+
+        jMenuItem1.setText("New Game");
+        jMenu1.add(jMenuItem1);
+
+        jMenuItem2.setText("Save");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem2);
+
+        jMenuItem4.setText("Main Menu");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem4);
+
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Edit");
+
+        jMenuItem3.setText("Undo");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem3);
+
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -470,10 +664,24 @@ public class Frame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+    private void RollBtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RollBtnMouseClicked
  Zar zar = new Zar();
         zar.start();        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel2MouseClicked
+    }//GEN-LAST:event_RollBtnMouseClicked
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+    jPanel5.setVisible(false);
+    jPanel1.setVisible(true);
+// TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -511,6 +719,21 @@ public class Frame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Alba1;
+    private javax.swing.JLabel Alba10;
+    private javax.swing.JLabel Alba11;
+    private javax.swing.JLabel Alba12;
+    private javax.swing.JLabel Alba13;
+    private javax.swing.JLabel Alba14;
+    private javax.swing.JLabel Alba15;
+    private javax.swing.JLabel Alba2;
+    private javax.swing.JLabel Alba3;
+    private javax.swing.JLabel Alba4;
+    private javax.swing.JLabel Alba5;
+    private javax.swing.JLabel Alba6;
+    private javax.swing.JLabel Alba7;
+    private javax.swing.JLabel Alba8;
+    private javax.swing.JLabel Alba9;
     private javax.swing.JLabel Back2;
     private javax.swing.JLabel Back3;
     private javax.swing.JLabel Back4;
@@ -519,6 +742,7 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel Backg3;
     private javax.swing.JLabel Backg4;
     private javax.swing.JLabel Backgammon;
+    private javax.swing.JLabel Background;
     private javax.swing.JLabel Dice;
     private javax.swing.JLabel File;
     private javax.swing.JLabel Home2;
@@ -528,7 +752,10 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel Next3;
     private javax.swing.JLabel Next4;
     private javax.swing.JLabel Play;
+    private javax.swing.JLabel RollBtn;
     private javax.swing.JLabel Rules;
+    private javax.swing.JLabel Zar1;
+    private javax.swing.JLabel Zar2;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -536,12 +763,29 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane2;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
