@@ -20,11 +20,11 @@ public class Zar {
     
     public void start() {
      
-       JLabel zar1=new JLabel(getter.getIcon("stone1.gif"));
-       JLabel zar2=new JLabel(getter.getIcon("stone1.gif"));
-       JButton button = new JButton("Throw");
+       JLabel zar1=new JLabel(getter.getIcon("stone1.png"));
+       JLabel zar2=new JLabel(getter.getIcon("stone1.png"));
+       JButton button = new JButton("Arunca");
        JLabel text= new JLabel("Total: 2");
-       JFrame window = new JFrame("throw dice ");
+       JFrame window = new JFrame("Arunca zarurile ");
        Container cp = window.getContentPane();
      
        cp.setLayout(new FlowLayout());
